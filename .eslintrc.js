@@ -12,8 +12,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {
-    'linebreak-style': ['error', 'windows'],
     '@typescript-eslint/indent': ['error', 2],
+    'linebreak-style': ['error', 'windows'],
   },
   settings: {
     'import/resolver': {
